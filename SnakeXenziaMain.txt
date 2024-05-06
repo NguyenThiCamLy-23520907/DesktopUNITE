@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <fstream>
 #include <string>
 #include"FunctionsPrototypes.h"
@@ -9,13 +9,11 @@
 #include<iomanip>
 #include <mutex>
 #include <Windows.h>
-using namespace std;
-int main()
+using namespace std; 
+void main()
 {
-	//printKeyboard(1, 3, 1, 3);
-	//system("pause");
 	// ========================================
-
+	
 	// ===== chỗ này in ra hình con rắn =======
 
 	string str;
@@ -38,7 +36,7 @@ int main()
 	printWelcome();
 
 	// Cái này là cái chỗ in Snake Xenzia
-
+	
 	// chỗ này in thông tin người làm
 
 	printInfo();
@@ -95,7 +93,7 @@ int main()
 				if (c == 27)
 					return;
 			}
-
+			
 		}
 	}
 	_getch();
