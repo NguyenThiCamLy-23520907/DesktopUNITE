@@ -12,6 +12,7 @@ void gotoxy(int column, int line);
 struct Point {
     int x, y;
 };
+
 class CONRAN {
 public:
     struct Point A[100];
@@ -43,6 +44,7 @@ public:
         }
     }
 };
+
 void VeKhung() {
     for (int i = MINX; i <= MAXX; i++)
         for (int j = MINX; j <= MAXY; j++)
