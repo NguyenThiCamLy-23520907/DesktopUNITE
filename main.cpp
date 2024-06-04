@@ -118,6 +118,7 @@ void SnakeGame::StartGame()
         gameOver = true;
 }
 
+
 void SnakeGame::ResetGame() 
 {
     score = 0;
