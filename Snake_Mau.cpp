@@ -9,7 +9,8 @@
 #define MAXY 20
 using namespace std;
 void gotoxy(int column, int line);
-struct Point {
+struct Point 
+{
     int x, y;
 };
 
@@ -17,7 +18,8 @@ class CONRAN {
 public:
     struct Point A[100];
     int DoDai;
-    CONRAN() {
+    CONRAN() 
+    {
         DoDai = 3;
         A[0].x = 10; A[0].y = 10;
         A[1].x = 11; A[1].y = 10;
